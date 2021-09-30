@@ -52,3 +52,4 @@ class Solution:
             lists[index] =  lists[index].next
             self.Heapify(value_index_list,0)
         return root.next
+"""Using Minimum Heap, time complexity is nlog(k), n is the sum of length of K Lists"""
